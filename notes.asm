@@ -1,3 +1,7 @@
+@@@@@@@ ARM Notes
+
+
+
 @ =lable => &lable in C
 @ [lable] => *lable in C
 
@@ -16,3 +20,6 @@
 @ #'d' is the ascii character d
 @ [r0, #2] sums the value in r0 and the literal integer 2
 @ [r0, #-2] subtracts the integer 2 from the value in r0
+
+@ r0 contains returned value
+@ r7 contains syscall number
