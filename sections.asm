@@ -8,12 +8,8 @@
 .section .rodata
     const: .word 0x2
 .section .bss
-    var: .dword 0xbeef
+    var: .space 0xbeef
 .section .text
 .global _start
-exit:
-
 _start:
-
-    mov r1, #0x10
-    BL exit
+    mov r1, #1
